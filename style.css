@@ -134,8 +134,9 @@ body {
     width:25%;
    text-align:end;
 }
-.introduce p{
-
+p.p-introduce {
+    color: #555;
+    font-size: 18px;
 }
 .introduce h1 {
     font-size: 27px;

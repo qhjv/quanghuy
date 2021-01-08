@@ -810,61 +810,6 @@ img.icon-hobbies {
 
 
 
-
-
-
-
-
-
-
-/*media*/
-@media (max-width:1050px) {
-
-  .container {
-    position: relative;
-    min-width: 900px;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    
-}
-.contactinfo {
-    position: relative;
-    margin: 30px;
-    margin-bottom: 50px;
-    width: 80%;
-    top: 0;
- }   
-
-.hobbies {
-    position: relative;
-    padding: 50px;
-    margin: 50px;
-    width: 78%;
-    height: 500px;
-    display: block;
-    
-}
-.p-b-hobbies {
-    width: 100%;
-}
-.p-hobbies {
-    
-    height: 181px;
-}
-.h2-hobbies {
-     padding-top: 20px;
-     writing-mode: unset;
-     height: 0;
-    
- 
-}
-.h2-hobbies::after,
-.h2-hobbies::before{
-    display: none;
-}
-
-}
 @media (max-width:980px){
  .name{
     display: flex;
@@ -875,9 +820,12 @@ img.icon-hobbies {
  .name p {
     font-size: 22px;
 }
+ .p-introduce{
+    display:none;
+ }
  .introduce {
     width: 100%;
-    height: 24%;
+    height: 35%;
     text-align: center;
     z-index: 999;
 }
@@ -1026,7 +974,7 @@ h2 {
     margin-left: 26px;
 }
 .scroll-up:hover .top-three {
-    height: 50px;
+    height: 58px;
 }
 
 
@@ -1041,4 +989,58 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 27px;
 }
+}
+
+
+
+
+
+
+/*media*/
+@media (max-width:1050px) {
+
+  .container {
+    position: relative;
+    min-width: 900px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+.contactinfo {
+    position: relative;
+    margin: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+    top: 0;
+ }   
+
+.hobbies {
+    position: relative;
+    padding: 50px;
+    margin: 50px;
+    width: 78%;
+    height: 500px;
+    display: block;
+    
+}
+.p-b-hobbies {
+    width: 100%;
+}
+.p-hobbies {
+    
+    height: 181px;
+}
+.h2-hobbies {
+     padding-top: 20px;
+     writing-mode: unset;
+     height: 0;
+    
+ 
+}
+.h2-hobbies::after,
+.h2-hobbies::before{
+    display: none;
+}
+
 }

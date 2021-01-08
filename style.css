@@ -922,13 +922,13 @@ img.icon-hobbies {
     font-weight: 600;
     /* width: 60%; */
     text-align: end;
-    padding: 0 25px;
+    padding: 0 30px;
     width: 100%;
 }
 .menu-btn {
     max-width: 1300px;
     margin: auto;
-    margin: 0 25px;
+    margin: 0 30px;
     cursor: pointer;
     z-index: 999;
 }

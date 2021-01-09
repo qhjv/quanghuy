@@ -1,0 +1,85 @@
+/*copyright*/
+.copyright {
+    
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: #888;
+    border-radius: 7px;
+}
+.copyright i{
+    color:#343436;
+}
+.copyright span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+}
+.copyright-span:hover{
+     color:#f3c26b;
+     cursor: pointer;
+}
+
+
+
+/*Scoll*/
+.scroll-up {
+     font-family: 'Poppins', sans-serif;
+    position: fixed;
+    bottom: 55px;
+    right: 30px;
+    color: black;
+    cursor: pointer;
+    z-index: 10;
+    /*display: none;*/
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: 9999;
+}
+.scroll-up .top-one {
+    display: block;
+    height: 30px;
+    margin-bottom: 5px;
+    width: 1px;
+    background: black;
+    margin-left: 12px;
+}
+.scroll-up .top-two {
+    text-orientation: mixed;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    white-space: nowrap;
+    transform: rotate(180deg);
+}
+.scroll-up .top-three {
+    display: block;
+    height: 0px;
+    margin-bottom: 5px;
+    width: 1px;
+    background: black;
+    margin-left: 12px;
+}
+.scroll-up:hover .top-one {
+    height: 0px;
+     transition: 0.5s;
+}
+.scroll-up:hover .top-two {
+    color: white;
+     transition: 0.5s;
+}
+
+.scroll-up:hover .top-two {
+    color: white;
+     transition: 0.5s;
+}
+.scroll-up:hover .top-three {
+    background: white;
+     transition: 0.5s;
+}
+.scroll-up:hover .top-three {
+    height: 30px;
+    background: white;
+    transition: 0.5s;
+}

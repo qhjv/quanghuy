@@ -33,6 +33,7 @@
     border-top: 18px solid #343436;
     bottom: -15px;
     left: 0px;
+    opacity: 0;
 
 }
 .music:hover .music-p{
@@ -40,7 +41,10 @@
     background: #343436;
     transition: 0.5s;
 }
-
+.music:hover .music-p::before{
+    opacity: 1;
+    transition: 0.5s;
+}
 .music-p p{
     color: #343436;
     font-size: 10px;

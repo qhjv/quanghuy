@@ -5,8 +5,18 @@
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/skill.css" />
+    <link rel="stylesheet" href="./css/experience.css" />
+    <link rel="stylesheet" href="./css/contact-hobbies.css" />
+    <link rel="stylesheet" href="./css/copyright-scroll.css" />
+    <link rel="stylesheet" href="./css/music.css" />
+    <link rel="stylesheet" href="./css/reponsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="./img/logoweb.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="add.js"></script>
     
 </head>
 <body>
@@ -45,14 +55,14 @@
            <div class="introduce">
            <p>Hello,</p>
            <h1>I am <span>Vu Quang Huy</span></h1>
-           <p class="p-introduce">Web developer internship ...</p>
+           <p class="p-introduce">Web developer intern ...</p>
                </div>
            <div class="img-home">
                <img src="./img/anh34.png">
            </div>
            <div class="cv-div">
                <p>
-                  My name is Huy, a 4th year student at Posts and Telecommunications Institute of Technology, major in Information Technology (PTIT).
+                  My name is Huy, a 4th year student at Posts and Telecommunications Institute of Technology (PTIT), major in Information Technology.
                </p>
                    <p>I always want to learn more from experience and use my creativity to create good products.
                    And I want to be a Web developer.</p>
@@ -304,40 +314,44 @@
     
     </section>
     <div class="copyright">
-      <i class="far fa-copyright"><span> All design by <span class="copyright-span"> QH-JV</span></span></i>
+      <i class="far fa-copyright"><span> 2021 All design by <span class="copyright-span"> QH-JV</span></span></i>
       
     </div>
+
     <div class="scroll-up" style="display: block;" onclick="page_scroll2top()"/ >
         <span class="top-one"></span>
         <span class="top-two">Top</span>
         <span class="top-three"></span>
     
     </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
+   <!--music-->
+   <div class="music">
+    <div class="music-p">
+     <p>play pause music</p>
+     </div>
+     <div>
+       <img class="img-control" src="./img/pause.png" id="icon">
+     </div>
+   </div> 
 
-                $('.menu-btn').click(function () {
-                    $('.menu-list').toggleClass("active");
-                    $('.menu-btn').toggleClass("active");
-                });
-            });
+     <audio id="myMusic" autoplay="" >
+       <source src="./file/music.mp3" type="audio/mp3"
+       >
+     </audio>   
+<script type="text/javascript">
 
-        </script>
-        <script type="text/javascript">
-  $(window).scroll(function(){
-    if($(window).scrollTop() >= 10) {
-      $('.scroll-up').show();
-    } else {
-      $('.scroll-up').hide();
-    }
-  });
-  function page_scroll2top(){
-    $('html,body').animate({
-      scrollTop: 0
-      }, 'fast');
-  }
-
+          var myMusic = document.getElementById("myMusic");
+          var icon = document.getElementById("icon");
+          icon.onclick = function(){
+            if(myMusic.paused){
+              myMusic.play();
+              icon.src = "./img/pause.png";
+            }else{
+              myMusic.pause();
+              icon.src="./img/play.png";
+            };
+          };
 </script>
+
 </body>
 </html>

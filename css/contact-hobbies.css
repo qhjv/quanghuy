@@ -132,6 +132,7 @@
     color: #fff;
     position: relative;
     height: 140px;
+    cursor:pointer;
 }
 .p-b-hobbies{
     display: flex;

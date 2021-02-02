@@ -9,6 +9,7 @@
 .img-control{
     height:45px;
     animation: rotateAlbumArt 3s linear 0s infinite forwards;
+     cursor:pointer;
 }
 
 @keyframes rotateAlbumArt

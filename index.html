@@ -52,7 +52,7 @@
     </section>
     <section class="home" id="home">
        <div class="name">
-           <div class="introduce">
+           <div class="introduce" id="load1">
            <p>Hello,</p>
            <h1>I am <span>Vu Quang Huy</span></h1>
            <p class="p-introduce">
@@ -61,7 +61,7 @@ Front-end Developer Intern ...</p>
            <div class="img-home">
                <img src="./img/anh34.png">
            </div>
-           <div class="cv-div">
+           <div class="cv-div" id="load0">
                <p>
                   My name is Huy, a 4th year student at Posts and Telecommunications Institute of Technology (PTIT), major in Information Technology.
                </p>
@@ -82,7 +82,7 @@ Front-end Developer Intern ...</p>
             <div class="titles"><div class="title">Skills</div></div>
             <div class="skill">
             <div class="skill-box skill-box-1">
-               <div class="skill-box-list front-end-box">
+               <div class="skill-box-list front-end-box " id="load2">
                  <div class="wrapper">
                     <h2 class="how-title">Front-End</h2>
                     
@@ -107,7 +107,7 @@ Front-end Developer Intern ...</p>
                     </div>
                         </div>
                </div>
-              <div class="skill-box-list ui-ux-box">
+              <div class="skill-box-list ui-ux-box"id="load3">
                     <div class="wrapper">
                     <h2 class="how-title">UX/UI</h2>
                     
@@ -135,7 +135,7 @@ Front-end Developer Intern ...</p>
               </div>
             </div>
             <div class="skill-box skill-box-2">
-              <div class="skill-box-list">
+              <div class="skill-box-list"id="load4">
                     <h2>Knowledge</h2>
                   <ul>
                     <li>Java</li>
@@ -154,7 +154,7 @@ Front-end Developer Intern ...</p>
                     
                   </ul>
               </div>
-              <div class="skill-box-list">
+              <div class="skill-box-list"id="load5">
                        <h2>Future</h2>
                   <ul>
                     <li>English(Toiec...)</li>
@@ -175,7 +175,7 @@ Front-end Developer Intern ...</p>
 
       <div class="experience-div">
         <ul>
-          <li>
+          <li class="load6">
             <img src="./img/school.png"><br>
             <i class="fa fa-check"></i>
             <div class="list-experience">
@@ -184,7 +184,7 @@ Front-end Developer Intern ...</p>
             </div>
             
           </li>
-          <li>
+          <li class="load6">
             <img src="./img/study.png"><br>
             <i class="fa fa-check"></i>
             <div class="list-experience">
@@ -193,7 +193,7 @@ Front-end Developer Intern ...</p>
             </div>
             
           </li>
-          <li>
+          <li class="load6">
             <img src="./img/work.png"><br>
             <i class="fas fa-sync-alt"></i>
             <div class="list-experience">
@@ -202,7 +202,7 @@ Front-end Developer Intern ...</p>
             </div>
             
           </li>
-          <li>
+          <li class="load6">
             <img src="./img/graduation.png"><br>
             <i class="fas fa-sync-alt"></i>
             <div class="list-experience-2">
@@ -211,7 +211,7 @@ Front-end Developer Intern ...</p>
             </div>
             
           </li>
-          <li>
+          <li class="load6">
             <img src="./img/it.png"><br>
             <i class="fas fa-sync-alt"></i>
             <div class="list-experience-2">
@@ -227,7 +227,7 @@ Front-end Developer Intern ...</p>
     </section>
     <section class="contact-hobbies" id="contact-hobbies">
       <div class="container">
-        <div class="contactinfo">
+        <div class="contactinfo" id="load7">
           
          <h3 class="title-3">Contact</h3>
             <div class="contact-content">
@@ -272,7 +272,7 @@ Front-end Developer Intern ...</p>
 
             </div>
                 </div>
-                <div class="hobbies">
+                <div class="hobbies" id="load8">
                       
                     <div class="p-b-hobbies">
                       <div class="p-hobbies">
@@ -338,20 +338,11 @@ Front-end Developer Intern ...</p>
      <audio id="myMusic"  >
        <source src="./file/music.mp3" type="audio/mp3"
        >
-     </audio>   
+     </audio> 
+
 <script type="text/javascript">
 
-          var myMusic = document.getElementById("myMusic");
-          var icon = document.getElementById("icon");
-          icon.onclick = function(){
-            if(myMusic.paused){
-              myMusic.play();
-              icon.src = "./img/pause.png";
-            }else{
-              myMusic.pause();
-              icon.src="./img/play.png";
-            };
-          };
+          
 /*scrollname*/
 // var titles = document.querySelector('.titles');
 
@@ -377,6 +368,9 @@ Front-end Developer Intern ...</p>
     
 //     }
 // });
+
+
+
 
 </script>
 

@@ -342,7 +342,18 @@ Front-end Developer Intern ...</p>
 
 <script type="text/javascript">
 
-          
+          $(window).scroll(function(){
+    if($(window).scrollTop() >= 10) {
+      $('.scroll-up').show();
+    } else {
+      $('.scroll-up').hide();
+    }
+  });
+  function page_scroll2top(){
+    $('html,body').animate({
+      scrollTop: 0
+      }, 'fast');
+  }
 /*scrollname*/
 // var titles = document.querySelector('.titles');
 

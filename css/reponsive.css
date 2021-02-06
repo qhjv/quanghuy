@@ -110,7 +110,12 @@ h2 {
     font-size: 35px;
 }
 .experience-div ul li {
-    display: contents;
+    display: block;
+    width: 100%;
+}
+.experience-div ul li .fa::after,
+.experience-div ul li .fas::after{
+    display: none;
 }
 .experience img {
     width: 150px;
@@ -183,6 +188,20 @@ h2 {
 .music-p{
   display: none;
 
+}
+.loaddichxuong{
+  animation:loadxuong 1s ease forwards;
+}
+@-webkit-keyframes loadxuong{
+  from{transform: translateX(-200px);opacity: 0}
+  to{transform: translateX(0px);opacity: 1}
+}
+.load6dichlen{
+  animation:loadlen 1s ease forwards;
+}
+@-webkit-keyframes loadlen{
+  from{transform: translateX(200px);opacity: 0}
+  to{transform: translateX(0px);opacity: 1}
 }
 }
 

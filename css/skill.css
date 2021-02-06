@@ -79,6 +79,7 @@
     height: 95%;
      position: relative;
       overflow-x:hidden;
+      opacity: 0;
 }
 .skill-box-list ul li{
     font-size: 18px;
@@ -169,4 +170,14 @@ h2:hover{
 .skill6{
         width: 65%;
  }
+
+
+.load2sangphai{
+  animation: loadsangphai 1s ease forwards;
+}
+.load4sangtrai{
+  animation: loadsangtrai 1s ease forwards;
+}
+
+
 

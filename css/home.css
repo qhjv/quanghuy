@@ -21,6 +21,7 @@
 .introduce{
     width:25%;
    text-align:end;
+   opacity: 0;
 }
 p.p-introduce {
     color: #666;
@@ -40,7 +41,7 @@ p.p-introduce {
     padding: 30px;
     background-color: #f3c26b7a;
     border-radius: 7px;
-    
+    opacity: 0;
 }
 .cv-div p{
     
@@ -105,4 +106,18 @@ p.p-introduce {
     padding-top: 77px;
     transition: 1s;
 
+}
+.load0trangdau{
+  animation:loadsangtrai 1s ease forwards;
+}
+@-webkit-keyframes loadsangtrai{
+  from{transform: translateX(200px);opacity: 0}
+  to{transform: translateX(0px);opacity: 1}
+}
+.load1trangdau{
+  animation:loadsangphai 1s ease forwards;
+}
+@-webkit-keyframes loadsangphai{
+  from{transform: translateX(-200px);opacity: 0}
+  to{transform: translateX(0px);opacity: 1}
 }

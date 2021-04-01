@@ -1,8 +1,11 @@
 body {
     text-decoration: none;
-    margin: 0;
-    padding: 0 10px 0 10px;
+    
+    margin: 7px;
+    padding: 0 ;
     background-color: #999;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 .navbar {
     font-family: 'Poppins', sans-serif;

@@ -51,6 +51,9 @@
    letter-spacing: 0px;
    transition: 0.8s;
 }
+.how-title-framework{
+    margin-bottom: 50px;
+}
 .skill {
     display: flex;
     justify-content: space-around;
@@ -69,6 +72,8 @@
 .skill-box-2{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .skill-box-list {
     background-color:#ECECEC ;
@@ -134,7 +139,7 @@ h2:hover{
 
     /* SKILL 1 */
 .skill1{
-        width: 80%;
+        width: 85%;
             
 }
 .skill-bar span{
@@ -154,15 +159,15 @@ h2:hover{
 
     /* SKILL 2 */
 .skill2{
-        width: 75%;
+        width: 80%;
 }
 
     /* SKILL 3 */
 .skill3{
-        width: 50%;
+        width: 75%;
 }
 .skill4{
-        width: 60%;
+        width: 75%;
 }
 .skill5{
         width: 65%;
@@ -170,6 +175,16 @@ h2:hover{
 .skill6{
         width: 65%;
  }
+ .skill7{
+        width: 65%;
+ }
+ .skill8{
+        width: 50%;
+ }
+ .skill9{
+        width: 60%;
+ }
+
 
 
 .load2sangphai{

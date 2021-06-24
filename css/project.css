@@ -1,0 +1,44 @@
+/*project*/
+.project{
+	font-family: 'Poppins', sans-serif;
+     color: #343436;
+}
+.titles-pro{
+    height: 105px;
+    text-align: center;
+    background: #343436;
+    margin-top: 10px;
+    border-radius: 7px;
+    box-shadow: 0 3px 3px 0 rgba( 1,2,2,0.05);
+}
+.title-pro{
+     font-size: 65px;
+    height: 90%;
+    color:#f3c26b;
+    padding-left: 15px;
+    position: relative;
+    letter-spacing: 5px;
+}
+.title-pro:hover{
+    
+}
+.pro-content {
+    height: 400px;
+    background-color: #ECECEC;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.profile-div {
+    margin-top: 20px;
+}
+
+
+
+
+
+body .owl-theme .owl-dots .owl-dot span {
+    background: #869791;
+}
+body.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ECECEC;
+}
